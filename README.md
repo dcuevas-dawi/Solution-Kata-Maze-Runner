@@ -13,3 +13,13 @@ En este Kata resolvemos la lógica tras el juego Maze Runner.
 * Si el jugador toca una pared o sale del tablero la función debe devolver "Dead".
 * Si no logra salir antes de gastar los movimientos debe devolver "Lost".
 * Si consigue ir del punto de partida a la salida sin morir, debe devolver "Finish".
+
+Ejemlo del tablero:
+
+Maze = [[1,1,1,1,1,1,1],
+        [1,0,0,0,0,0,3],
+        [1,0,1,0,1,0,1],
+        [0,0,1,0,0,0,1],
+        [1,0,1,0,1,0,1],
+        [1,0,0,0,0,0,1],
+        [1,2,1,0,1,0,1]]
